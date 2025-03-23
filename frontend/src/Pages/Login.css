@@ -1,0 +1,81 @@
+/* Login.css */
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    max-width: 370px;
+    font-family: Rubik, Arial, sans-serif;
+  }
+  .text-signup{
+    margin-left: 50px;
+    width: 100%;
+  }
+  .text-signup h1:first-of-type{
+    margin-top: 30px;
+  }
+  .text-signup h1:last-of-type {
+    margin-bottom: 35px; /* Small space before p */
+  }
+  .text-signup h1{
+    margin-bottom: 0px;
+    line-height: 0.5;
+    font-size: 28px;
+    text-align: left;
+    color: #1D2226;
+  }
+  .text-signup p{
+    line-height: 0.3;
+    font-size: 18px;
+    color: #1D2226;
+    opacity: 60%;
+    text-align: left;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 15px;
+  }  
+  .login {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-container {
+    width: 100%;
+  }
+  
+  .input-container input {
+    width: 80%;
+    padding: 12px 10px;
+    border: 1px solid #CBCBCB;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+  }
+  .input-container label[for='email']{
+    right: 26% !important;
+    font-size: 14px;
+    color: #6C25FF !important;
+  }
+  .input-container label[for='password']{
+    right: 30% !important;
+    font-size: 14px;
+    color: #6C25FF !important;
+  }
+  .sub {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 90%;
+    padding: 12px 10px;
+    background-color: #CBCBCB;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sub:hover {
+    background-color: darkgray;
+  }
+  

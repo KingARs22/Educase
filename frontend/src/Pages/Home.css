@@ -1,0 +1,76 @@
+/* styles.css */
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  max-height: 90vh; /* Prevents cutting off content */
+  overflow-y: auto; /* Adds scroll if needed */
+  padding-bottom: 20px;
+
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+  .text-home{
+    font-family: 'Rubik', sans-serif;
+    font-weight: Medium;
+    margin-left: 17px;
+    width: 250px;
+  }
+  .text-home h1{
+    text-align: left;
+    color: #1D2226;
+    font-size: 28px;
+  }
+  .text-home p{
+    text-align: left;
+    font-size: 18px;
+    color: #1D2226;
+    opacity: 60%;
+  }  
+  .buttons{
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+  .newaccount {
+    margin-top: 14px;
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #6C25FF;
+    color: white;
+    margin-bottom: 10px;
+    } 
+    .newaccount:hover{
+      background-color: #572dcc;
+    }
+  .logins {
+    width: 100%;
+    padding: 14px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #6C25FF4B;
+    color: #1D2226;
+  }
+  .logins:hover{
+    background-color:#9182ba;
+  }
+
+  

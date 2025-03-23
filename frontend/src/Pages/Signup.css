@@ -1,0 +1,150 @@
+.cont-sign{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .text{
+    text-align: left;
+    padding-left: 10px;
+    width: 100%;
+  }
+  .text h1:first-of-type{
+    margin-top: 30px;
+  }
+  .text h1:last-of-type {
+    margin-bottom:0px; /* Small space before p */
+  }
+  .text h1{
+    margin-left: 22px;
+    margin-bottom: 0px;
+    line-height: 0.5;
+    font-size: 28px;
+    text-align: left;
+    color: #1D2226;
+  }
+
+  .signup {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 20px;
+    width: 350px;
+  }
+
+  .input-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .input-container label {
+    position: inherit;
+    right: 30%;
+    text-align: left;
+    font-size: 14px;
+    color: #aaa;
+    background-color: #fff;
+    padding: 0 5px;
+    top: 8px;
+    font-size: 14px;
+    color: #6C25FF;
+  }
+  .input-container label[for='name']{
+    right: 32% !important;
+    font-size: 14px;
+    color: #6C25FF !important;
+  }
+  .input-container label[for='Phone number']{
+    right: 27% !important;
+    font-size: 14px;
+    color: #6C25FF !important;
+  }
+  .input-container label[for='company name']{
+    right: 27% !important;
+    font-size: 14px;
+    color: #6C25FF !important;
+  }
+
+  .asterisk {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .radio-group{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    align-items: left;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  .radio-group p{
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  }
+  .radio-group label[for='yes']{
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin-right: 20px;
+  }
+  input[type="radio"] {
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #919191;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Inner dot when selected */
+input[type="radio"]:checked {
+    border-color: #6C25FF;
+}
+
+input[type="radio"]::before {
+    content: "";
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color:#6C25FF;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 0.2s ease-in-out;
+}
+
+input[type="radio"]:checked::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+  .submit-btn {
+    position: relative;
+    transform: translateY(200%);
+    align-items: center;
+    width: 88%;
+    padding: 10px;
+    background-color: #6C25FF;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #572dcc;
+  }
